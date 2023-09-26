@@ -1,0 +1,59 @@
+.reply{
+    display: flex;
+    flex-flow: row;
+    place-items: center;
+}
+#card{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#reply{
+    width: 250px;
+    margin: 20px;
+}
+#direct{
+    height: 30px;
+    width: 30px;
+}
+#direct:hover{
+    cursor: pointer;
+}
+.user{
+    margin: 15px;
+    display: flex;
+    flex-flow: row;
+    place-items: center;
+}
+#user{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+#name{
+    transform: translateY(10px);
+    margin-left: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    flex-flow: row;
+    place-items: center;
+}
+#datum{
+    text-decoration: underline;
+    font-style: italic;
+    margin: 15px;
+}
+#delete{
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 0.1s;
+}
+#delete:hover{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,24 @@
+#gender{
+    width: 25px;
+    height: 25px;
+}
+#name-gender{
+    display: flex;
+}
+#name{
+    margin-right: 5px;
+}
+#godine{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: auto;
+}
+#Card{
+    margin: 20px;
+    transition: 0.3s;
+}
+#Card:hover{
+    transform: translate(7px,-7px);
+}

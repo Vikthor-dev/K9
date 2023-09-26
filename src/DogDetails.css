@@ -1,0 +1,79 @@
+.details{
+    padding: 40px;
+}
+#img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5%;
+}
+#info{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#info-2{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+#gender{
+    height: 30px;
+    width: 30px;
+}
+#pdf{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    transition: 0.1s;
+}
+#pdf:hover{
+    cursor: pointer;
+    transform:rotateZ(10deg)
+}
+#mid{
+    border-color:cornflowerblue;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.leaflet-container{
+    height: 250px;
+    width: 550px;
+    border-radius: 5%;
+}
+#marker{
+    height: 30px;
+    width: 30px;
+}
+#userImagePic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#poruka{
+    display: flex;
+    place-items: center;
+}
+#message{
+    width: 250px;
+}
+#direct{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+#direct:hover{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+#uredi{
+    margin: 5px;
+}
+#izbrisi{
+    margin:5px
+}
+#uredi{
+    margin: 5px;
+}

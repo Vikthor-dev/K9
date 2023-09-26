@@ -1,0 +1,30 @@
+.settings{
+    padding: 50px;
+}
+#userImg{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+h6{
+    margin-bottom: 20px;
+}
+#email{
+    text-decoration: underline;
+    font-style: italic;
+    color:steelblue;
+}
+#info{
+    font-style: italic;
+    font-size: 17px;
+}
+#delete-btn{
+    margin-right:10px
+}
+#koordinatee{
+    text-decoration: underline;
+    color: rgb(89, 174, 243);
+}
+#koordinatee:hover{
+    cursor: pointer;
+}
